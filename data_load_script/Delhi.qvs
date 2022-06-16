@@ -1,0 +1,64 @@
+///$tab Delhi
+Delhi_Expense_Temp:
+LOAD
+    Expense,
+    Amount,
+    Remark
+FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
+(ooxml, embedded labels, table is [April 2022]);
+
+LOAD
+    Expense,
+    Amount,
+    Remark    
+FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
+(ooxml, embedded labels, table is [March 2022]);
+
+LOAD
+    Expense,
+    Amount,
+    Remark
+FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
+(ooxml, embedded labels, table is [February 2022]);
+
+LOAD
+    Expense,
+    Amount,
+    Remark
+FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
+(ooxml, embedded labels, table is [January 2022]);
+
+LOAD
+    Expense,
+    Amount,
+    Remark
+FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
+(ooxml, embedded labels, table is [December 2021]);
+
+LOAD
+    Expense,
+    Amount,
+    Remark
+FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
+(ooxml, embedded labels, table is [November 2021]);
+
+LOAD
+    Expense,
+    Amount,
+    Remark
+FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
+(ooxml, embedded labels, table is [October 2021]);
+
+LOAD
+    Expense,
+    Amount,
+    Remark
+FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
+(ooxml, embedded labels, table is [September 2021]);
+
+LOAD
+    Expense,
+    Amount,
+    Remark
+FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
+(ooxml, embedded labels, header is 1 lines, table is [August 2021]);

@@ -1,0 +1,8 @@
+///$tab Aurangabad
+Aurangabad:
+LOAD
+    Expense,
+    Amount,
+    Remark
+FROM [lib://My On Drive/My Office Expenses/Aurangabad/Expenses.xlsx]
+(ooxml, embedded labels, table is Sheet1);
