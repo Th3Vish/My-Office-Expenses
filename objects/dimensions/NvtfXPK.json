@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "NvtfXPK",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "=\tif(Wildmatch(Expense,'Zolo*','*Hotel*'),'Stay',\r\n\tif(Wildmatch(Expense,'*Electricity*'),'Electricity Bill',\n    if(Wildmatch(Expense,'Conveyance*'),'Conveyance',\n    if(Wildmatch(Expense,'*Food*'),'Food',\n    if(Wildmatch(Expense,'*Bus*','*Flight*','*Train*','*Ola*'),'Travel','Others')))))"
+    ],
+    "qFieldLabels": [
+      "Expenses"
+    ],
+    "title": "Expenses",
+    "coloring": {
+      "changeHash": "0.7174619255656121"
+    }
+  },
+  "qMetaDef": {
+    "title": "Expenses",
+    "description": "",
+    "tags": []
+  }
+}

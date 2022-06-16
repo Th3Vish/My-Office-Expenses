@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "UYgRSHk",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Amount",
+    "qDef": "Sum(Amount)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true,
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Amount",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "qName": "Amount",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Delhi_Expenses"
+    ]
+  },
+  {
+    "qName": "Expense",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Delhi_Expenses"
+    ]
+  },
+  {
+    "qName": "Location",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Delhi_Expenses"
+    ]
+  },
+  {
+    "qName": "Month",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Delhi_Expenses"
+    ]
+  },
+  {
+    "qName": "Remark",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Delhi_Expenses"
+    ]
+  }
+]

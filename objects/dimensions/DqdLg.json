@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "DqdLg",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "=Date(Date#(Month,'MMM YYYY'),'MMM YYYY')"
+    ],
+    "qFieldLabels": [
+      "Month"
+    ],
+    "title": "Month",
+    "coloring": {
+      "changeHash": "0.749856683295953"
+    }
+  },
+  "qMetaDef": {
+    "title": "Month",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "bAFas",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "=Coalesce(Remark,Expense)"
+    ],
+    "qFieldLabels": [
+      "Remarks"
+    ],
+    "title": "Remarks",
+    "coloring": {
+      "changeHash": "0.287462117692717"
+    }
+  },
+  "qMetaDef": {
+    "title": "Remarks",
+    "description": "",
+    "tags": []
+  }
+}
