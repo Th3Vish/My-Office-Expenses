@@ -1,8 +1,8 @@
 ///$tab Aurangabad
 Aurangabad:
 LOAD
-    Expense,
-    Amount,
-    Remark
+    Expense,Amount,Remark,
+    'June 2022' as Month,
+    'Aurangabad' as Location
 FROM [lib://My On Drive/My Office Expenses/Aurangabad/Expenses.xlsx]
 (ooxml, embedded labels, table is Sheet1);

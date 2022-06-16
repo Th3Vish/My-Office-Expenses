@@ -22,74 +22,70 @@ SET NumericalAbbreviation='3:k;6:M;9:G;12:T;15:P;18:E;21:Z;24:Y;-3:m;-6:μ;-9:n;
 ///$tab Delhi
 Delhi_Expense_Temp:
 LOAD
-    Expense,
-    Amount,
-    Remark
+    Expense,Amount,Remark,
+    'April 2022' as Month
 FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
 (ooxml, embedded labels, table is [April 2022]);
 
 LOAD
-    Expense,
-    Amount,
-    Remark    
+    Expense,Amount,Remark,
+    'March 2022' as Month
 FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
 (ooxml, embedded labels, table is [March 2022]);
 
 LOAD
-    Expense,
-    Amount,
-    Remark
+    Expense,Amount,Remark,
+    'February 2022' as Month
 FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
 (ooxml, embedded labels, table is [February 2022]);
 
 LOAD
-    Expense,
-    Amount,
-    Remark
+    Expense,Amount,Remark,
+    'January 2022' as Month
 FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
 (ooxml, embedded labels, table is [January 2022]);
 
 LOAD
-    Expense,
-    Amount,
-    Remark
+    Expense,Amount,Remark,
+    'December 2021' as Month
 FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
 (ooxml, embedded labels, table is [December 2021]);
 
 LOAD
-    Expense,
-    Amount,
-    Remark
+    Expense,Amount,Remark,
+    'November 2021' as Month
 FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
 (ooxml, embedded labels, table is [November 2021]);
 
 LOAD
-    Expense,
-    Amount,
-    Remark
+    Expense,Amount,Remark,
+    'October 2021' as Month
 FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
 (ooxml, embedded labels, table is [October 2021]);
 
 LOAD
-    Expense,
-    Amount,
-    Remark
+    Expense,Amount,Remark,
+    'September 2021' as Month
 FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
 (ooxml, embedded labels, table is [September 2021]);
 
 LOAD
-    Expense,
-    Amount,
-    Remark
+    Expense,Amount,Remark,
+    'August 2021' as Month
 FROM [lib://My On Drive/My Office Expenses/Delhi/Expenses.xlsx]
 (ooxml, embedded labels, header is 1 lines, table is [August 2021]);
 
+Delhi_Expenses:
+LOAD * ,'Delhi' as Location
+Resident Delhi_Expense_Temp
+Where not (WildMatch(Expense,'Total') or WildMatch(Expense,'*Estimated*')); 
+Drop Table Delhi_Expense_Temp;
 ///$tab Aurangabad
 Aurangabad:
 LOAD
-    Expense,
-    Amount,
-    Remark
+    Expense,Amount,Remark,
+    'June 2022' as Month,
+    'Aurangabad' as Location
 FROM [lib://My On Drive/My Office Expenses/Aurangabad/Expenses.xlsx]
 (ooxml, embedded labels, table is Sheet1);
 
