@@ -1,10 +1,10 @@
 {
-  "qTitle": "My Office Expenses",
+  "qTitle": "Expense",
   "qThumbnail": {},
   "encrypted": true,
   "id": "2c7d1507-d99d-405f-9c02-d650a48bd72c",
   "published": false,
   "owner": "auth0|4ccfba84aabd4098b151c0bbdeaa929682ef32baa79a43e6edfeb4640b01a946",
   "ownerId": "pS-Cl6CLYZONaYmN7JlooT-evGBFFT3-",
-  "_resourcetype": "app"
+  "description": ""
 }
